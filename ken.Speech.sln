@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ken.Speech.Tests", "ken.Speech.Tests\ken.Speech.Tests.csproj", "{C60357BC-7AF2-4791-8387-397EEA786CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ken.Speech.Recognizer", "ken.Speech.Recognizer\ken.Speech.Recognizer.csproj", "{29D28FED-2E63-4EB0-BB4C-757EB8066FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ken.Speech", "ken.Speech\ken.Speech.csproj", "{F51DB27D-E33A-4E75-A6E0-86AE960C88C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0E50C60D-A9C9-423F-A7D7-4C7D69305923}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C60357BC-7AF2-4791-8387-397EEA786CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60357BC-7AF2-4791-8387-397EEA786CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60357BC-7AF2-4791-8387-397EEA786CCA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C60357BC-7AF2-4791-8387-397EEA786CCA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C60357BC-7AF2-4791-8387-397EEA786CCA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C60357BC-7AF2-4791-8387-397EEA786CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60357BC-7AF2-4791-8387-397EEA786CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60357BC-7AF2-4791-8387-397EEA786CCA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C60357BC-7AF2-4791-8387-397EEA786CCA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C60357BC-7AF2-4791-8387-397EEA786CCA}.Release|x86.ActiveCfg = Release|Any CPU
+		{29D28FED-2E63-4EB0-BB4C-757EB8066FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D28FED-2E63-4EB0-BB4C-757EB8066FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D28FED-2E63-4EB0-BB4C-757EB8066FDF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{29D28FED-2E63-4EB0-BB4C-757EB8066FDF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{29D28FED-2E63-4EB0-BB4C-757EB8066FDF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{29D28FED-2E63-4EB0-BB4C-757EB8066FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D28FED-2E63-4EB0-BB4C-757EB8066FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D28FED-2E63-4EB0-BB4C-757EB8066FDF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{29D28FED-2E63-4EB0-BB4C-757EB8066FDF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{29D28FED-2E63-4EB0-BB4C-757EB8066FDF}.Release|x86.ActiveCfg = Release|Any CPU
+		{F51DB27D-E33A-4E75-A6E0-86AE960C88C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51DB27D-E33A-4E75-A6E0-86AE960C88C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51DB27D-E33A-4E75-A6E0-86AE960C88C3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F51DB27D-E33A-4E75-A6E0-86AE960C88C3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F51DB27D-E33A-4E75-A6E0-86AE960C88C3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F51DB27D-E33A-4E75-A6E0-86AE960C88C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51DB27D-E33A-4E75-A6E0-86AE960C88C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51DB27D-E33A-4E75-A6E0-86AE960C88C3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F51DB27D-E33A-4E75-A6E0-86AE960C88C3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F51DB27D-E33A-4E75-A6E0-86AE960C88C3}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
